@@ -35,7 +35,7 @@ public  class TestDb {
         Statement smt = con.createStatement() ;
         ResultSet rs = smt.executeQuery(sql) ;
          while (rs.next()) {
-           System.out.println(rs.getString("nom")) ;
+           System.out.println(rs.getString("nom + bnjour lol")) ;
         }
      }  catch (Exception e) {
          // gestion des exceptions
